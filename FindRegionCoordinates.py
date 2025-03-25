@@ -62,7 +62,7 @@ def find_subsequence_range(sequence, pattern = "N+"):
 	for match in re.finditer(pattern, sequence):
 		start, end = match.span()
 		# Adjust the end position to be inclusive like in a BED file format
-		coordinates.append((start, end - 1))
+		coordinates.append((start, end))
 
 	# Return the coordinates
 	return coordinates
