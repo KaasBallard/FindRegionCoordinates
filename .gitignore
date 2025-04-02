@@ -9,3 +9,6 @@ SoftMasking/*/Code/bash/RM_*/
 # Ignore R related files
 *.Rhistory
 *.Rdata
+
+# Ignore the python virtual environment
+.venv

@@ -1,4 +1,4 @@
-#!/home/administrator/mambaforge/envs/biopython/bin/python
+#!/usr/bin/env python
 
 # region Import Modules
 # Import required modules
