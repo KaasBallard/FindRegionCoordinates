@@ -1,0 +1,11 @@
+[project]
+name = "findregioncoordinates"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "argparse>=1.4.0",
+    "biopython>=1.85",
+    "polars>=1.26.0",
+]

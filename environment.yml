@@ -1,0 +1,10 @@
+name: findregioncoordinates
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.13
+  - biopython>=1.85
+  - polars>=1.26.0
+  - argparse>=1.4.0
